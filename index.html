@@ -11,9 +11,7 @@
 </head>
 
 <body>
-    <script src="scripts/chat.js"></script>
-    <script src="scripts/ui.js"></script>
-    <script src="scripts/app.js"></script>
+    
 
     <!--title-->
     <div class="container my4">
@@ -61,12 +59,35 @@
                     <input type="submit" class="btn" value="update">
                 </div>
             </div>
-        </form>   
+        </form>
 
         <!--show current name-->
 
     </div>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBWrXpyRFQ0avEqUsfOsNY-rc1Lji78TeU",
+            authDomain: "chatchat-22868.firebaseapp.com",
+            projectId: "chatchat-22868",
+            storageBucket: "chatchat-22868.appspot.com",
+            messagingSenderId: "94790273111",
+            appId: "1:94790273111:web:dfc1d56b2c8f448d7d3b12"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+    <script src="scripts/chat.js"></script>
+    <script src="scripts/ui.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 
 </html>
