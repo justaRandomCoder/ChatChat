@@ -1,0 +1,12 @@
+.container{
+    max-width: 800px;
+}
+.btn{
+    background: burlywood;
+    color: white;
+    outline: none !important;
+    box-shadow: none i !important;
+}
+.btn:focus{
+    outline: none imp !important;
+}
