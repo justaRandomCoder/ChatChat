@@ -5,8 +5,8 @@
     background: burlywood;
     color: white;
     outline: none !important;
-    box-shadow: none i !important;
+    box-shadow: none !important;
 }
 .btn:focus{
-    outline: none imp !important;
+    outline: none !important;
 }
