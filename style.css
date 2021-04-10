@@ -1,11 +1,15 @@
+body{
+    background-color: aliceblue;
+}
 .container{
-    max-width: 800px;
+    max-width: 1600px;
 }
 .btn{
-    background: burlywood;
+    background:grey;
     color: white;
     outline: none !important;
     box-shadow: none !important;
+    padding: 10px;
 }
 .btn:focus{
     outline: none !important;
@@ -16,4 +20,17 @@
 .time{
     font-size: 0.7em;
     color: #999;
+}
+.glass{
+    min-height: 1000px;
+    padding: 20px;
+    background: white; 
+    width: 99%;
+    border-style: solid;
+    border-color: grey;
+    background: linear-gradient(
+        to right bottom,
+     rgba(255,255,255,0.9),
+     rgba(255,255,255,0.1));
+    border-radius: 1rem;
 }

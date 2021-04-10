@@ -28,8 +28,7 @@ class ChatRoom{
                         callback(change.doc.data());
                     }
                 });
-        });
-       
+        });   
     }
     //updating the username
     updateUsername(newUsername){
