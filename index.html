@@ -23,9 +23,9 @@
         <div class="chat-rooms mb-3 text-center">
             <div class="my-2">Choose a Chatroom</div>
             <button class="btn" id="general">#general</button>
-            <button class="btn" id="general">#gaming</button>
-            <button class="btn" id="general">#love</button>
-            <button class="btn" id="general">#memes</button>
+            <button class="btn" id="gaming">#gaming</button>
+            <button class="btn" id="love">#love</button>
+            <button class="btn" id="memes">#memes</button>
         </div>
 
         <!--chat list-->
@@ -59,11 +59,10 @@
                     <input type="submit" class="btn" value="update">
                 </div>       
             </div>
-            <div class="display-name">Your current name: <b>Anon</b> </div>
+            <!--show current name-->
+            <div class="display-name my-3">Your current name: <b>Anon</b> </div>
+            <div class="display-room my-3">Your current room: <b>General</b> </div>
         </form>
-
-        <!--show current name-->
-
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -91,5 +90,4 @@
     <script src="scripts/ui.js"></script>
     <script src="scripts/app.js"></script>
 </body>
-
 </html>

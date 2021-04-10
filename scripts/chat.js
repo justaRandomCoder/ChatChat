@@ -1,7 +1,7 @@
 class ChatRoom{
-    constructor(room,username){
+    constructor(room){
         this.room = room;
-        this.username = username;
+        this.username = localStorage.getItem('name');
         this.chats = db.collection('chats');
         this.unsub = null;
     }
@@ -39,8 +39,8 @@ class ChatRoom{
     //updating the room
     updateRoom(newRoom){
         this.room = newRoom;
+        console.log(this.room);
         console.log('room updated');
         this.unsub();
-        this.getChats();
     }
 }
