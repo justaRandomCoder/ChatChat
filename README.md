@@ -1,3 +1,3 @@
 ## ChatChat
 
-A chat application using HTML, CSS, BOOTSTRAP and JS.
+A chat application using HTML, CSS, Bootstrap, JS and Firebase as backend database.
